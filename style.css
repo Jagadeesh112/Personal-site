@@ -1,0 +1,300 @@
+body {
+  color: white;
+  background-color: #2C394B;
+  margin: 0;
+  padding: 0;
+}
+
+.big-heading {
+  font-weight: bold;
+  font-size: 4.5rem;
+}
+
+.small-headings {
+  font-weight: bold;
+  font-size: 2.5rem;
+}
+
+.fadeout {
+  opacity: 0.5;
+}
+
+.links {
+  color: #FF4C29;
+  text-decoration: none;
+}
+
+.links:hover {
+  color: #ff947f;
+}
+
+/**************************************************** Navigation bar ******************************************/
+.navbar-brand {
+  font-weight: 600;
+  border: 2px solid #FF4C29;
+  border-radius: 100%;
+  padding: 4px 16px;
+}
+
+.navbar-brand:hover {
+  box-shadow: 3px 3px black;
+}
+
+.navbar {
+  padding: 2% 8%;
+}
+
+.nav-item {
+  margin: 0 10px;
+}
+
+.navbar-nav {
+  text-align: right;
+}
+
+/**************************************************** title Section ******************************************/
+.title-container {
+  color: white;
+  margin: 0 16%;
+  padding: 2% 0 7%;
+  text-align: left;
+}
+
+.greetings {
+  color: #FF4C29;
+  margin: 0 0 30px 4px;
+  font-size: 1.2rem;
+}
+
+.title-paragraph {
+  margin: 40px 0;
+  width: 70%;
+}
+
+/**************************************************** buttons ******************************************/
+.get-in-touch {
+  color: #FF4C29;
+  border: 2px solid #FF4C29;
+  border-radius: 4%;
+  text-decoration: none;
+  background-color: transparent;
+  padding: 1.15rem 1.65rem;
+}
+
+.get-in-touch:hover {
+  color: #FF4C29;
+  background-color: rgba(255, 148, 127, 0.1);
+}
+
+.view {
+  display: inline-block;
+  padding: 0.5rem 2.5rem;
+  margin: 10px 40px 10px 0;
+}
+
+/**************************************************** About me ******************************************/
+.about-me-container {
+  color: white;
+  margin: 0 16% 0 20%;
+  padding: 7% 0;
+  text-align: left;
+}
+
+.about-me-paragraph {
+  margin: 20px 0 40px;
+  width: 80%;
+}
+
+.my-skills-heading {}
+
+.skills {
+  display: inline-block;
+  text-align: left;
+  margin-top: 10px;
+  margin-right: 5%;
+}
+
+.skill-item {
+  list-style: none;
+}
+
+.skill-list {
+  margin: 0;
+  padding: 0;
+}
+
+.skill-item::before {
+  color: #FF4C29;
+  content: "▹"
+}
+
+/**************************************************** project section ******************************************/
+.project-container {
+  margin: 0 16%;
+  padding: 7% 0;
+  text-align: left;
+}
+
+.project-title {
+  padding: 10px 0;
+  width: 80%;
+}
+
+.project-description {
+  margin: 20px 0;
+  width: 80%;
+}
+
+/**************************************************** contact section ******************************************/
+.contact-container {
+  margin: 0 16%;
+  padding: 7% 0;
+  text-align: center;
+}
+
+.contact-paragraph {
+  display: inline-block;
+  width: 40%;
+}
+
+.mail {
+  margin: 5%;
+  padding: 1rem 1.65rem;
+}
+
+.contact-heading {
+  margin-bottom: 5%;
+}
+
+/**************************************************** footer section ******************************************/
+.footer-container {
+  text-align: center;
+  padding-bottom: 7%;
+}
+
+.social-icon {
+  color: black;
+  margin: 10px;
+}
+
+.footer {
+  padding-bottom: 5%;
+}
+
+/**************************************************** media query section ******************************************/
+
+@media only screen and (max-width: 700px) {
+  .navbar {
+    margin: 0;
+    width: 100%;
+    padding: 7%;
+  }
+
+  .title-container {
+    margin: 0;
+    padding: 2% 7% 10%;
+    margin-bottom: 10%;
+    text-align: left;
+    width: 100;
+  }
+
+  .big-heading {
+    font-size: 3rem;
+  }
+
+  .fadeout{
+    font-size: 2.5rem;
+  }
+
+  .greetings {
+    width: 100%;
+    margin: 0;
+    padding: 20% 0 2%;
+    font-size: 1rem;
+  }
+
+  .title-paragraph {
+    margin: 0;
+    padding: 7% 0 20%;
+    width: 100%;
+  }
+
+  .small-headings {
+    font-weight: bold;
+    font-size: 2rem;
+  }
+
+  .about-me-container {
+    width: 100%;
+    margin: 10% 0;
+    padding: 10% 7%;
+    text-align: left;
+  }
+
+  .about-me-paragraph {
+    margin:0;
+    padding-bottom: 40px;
+    padding-top: 20px;
+    width: 100%;
+  }
+
+  .my-skills-heading {
+    padding-top: 10px;
+  }
+
+  .project-container {
+    margin: 10% 0;
+    padding: 10% 7%;
+    width: 100;
+    text-align: left;
+  }
+
+  .project-title {
+    padding: 10px 0;
+    width: 100%;
+  }
+
+  .project-description {
+    margin: 20px 0;
+    width: 100%;
+  }
+
+  .contact-container {
+    margin: 10%;
+    padding: 10% 7%;
+    text-align: center;
+  }
+
+  .mail {
+    margin: 20%;
+  }
+
+  .contact-heading {
+    margin-bottom: 10%;
+    padding-bottom: 10%;
+  }
+
+  .footer-container {
+    text-align: center;
+    padding-bottom: 7%;
+  }
+
+  .social-icon {
+    font-size: 1rem;
+    color: black;
+    margin: 10px;
+  }
+
+  .footer {
+    padding-bottom: 5%;
+  }
+
+
+
+
+
+
+
+
+
+}
